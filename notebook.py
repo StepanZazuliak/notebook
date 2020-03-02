@@ -1,9 +1,14 @@
 # Store the next available id for all new notes last_id = 0
+
+import datetime 
+
 class Note:
     '''
     Represent a note in the notebook. Match against a
     string in searches and store tags for each note.
     '''
+
+
 
     def __init__(self, memo, tags=''):
         '''
@@ -11,6 +16,8 @@ class Note:
         space-separated tags. Automatically set the note's
         creation date and a unique id.
         '''
+        
+        last_id = 0 
 
         self.memo = memo        
         self.tags = tags        
