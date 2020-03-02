@@ -74,4 +74,4 @@ Notebook Menu
 #if __name__ == "__main__":    
     #Menu().run() 
 
-print('Menu: ', dir(Menu))
+print('Menu: ', dir(Menu)) 
